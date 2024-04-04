@@ -1,8 +1,8 @@
 pipeline {
   agent any
-  tools { 
-      maven 'DHT_MVN' 
-      jdk 'DHT_SENSE' 
+  tools {
+      jdk 'Java8'
+      maven 'Maven363'
   }
   stages {
     stage('Checkout') {
